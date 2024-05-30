@@ -1,0 +1,79 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: "Trirong", serif;
+    background-image: url(dd.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgba(10, 10, 10, 0.156);
+cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+}
+.nav ul li{
+    padding: 0 28px;
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-weight: 900;
+    
+}
+.nav a{
+    font-weight: 900;
+    text-decoration: none !important;
+    transition: all 0.4s ease;
+    color: black;
+    }
+.nav a:hover{
+    color:  yellow !important;
+    font-weight: 100;
+    }
+main{
+    margin:10px 53px;
+    background-color:  rgba(10, 10, 10, 0.156);
+    padding: 5px 12px;
+}
+p{
+    color: black ;
+    font-weight: 700;
+}
+#section3 ul li{
+    color: black ;
+    font-weight: 700;
+}
+#section3 .ol{
+   font-size: large;
+}
+h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+h3:hover{
+    color:  yellow !important;
+    font-weight: 100;
+    }
+.table{
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px 150px;
+}
+.table td{
+    color: black ;
+    font-weight: 700;
+}
+.img{
+    margin: 10px 230px;
+    width: 70%;
+    height:auto;
+}
